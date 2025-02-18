@@ -1,0 +1,164 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffb1c9;
+    color: #101010;
+    padding: 10px 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img {
+    object-fit: cover;
+    object-position: center;  
+
+    width: 100px;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+nav ul {
+    margin: 0 20px;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 5px;
+    padding: 2px 7px;
+
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff0055; /* Match the hero h1 color */
+}
+
+nav li:hover {
+    background-color: #ffffff80; /* Match the hero background color */
+}
+
+nav li.active {
+    background-color: #ff0055; /* Match the hero h1 color */
+    color: #ffffff; /* Ensure text is readable */
+}
+
+nav li.active a {
+    color: #ffffff; /* Ensure text is readable */
+}
+
+.btn-primary {
+    background-color: #101010;
+    color: #f3f3f3;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f3f3f3;
+    color: #101010;
+}
+
+.btn-secondary {
+    background-color: #ff0062;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #b30036;
+    color: #ffffff;
+}
+
+.hero {
+    background-color: #98A8F8;
+    background-image: url('/assets/banner-3.jpg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url('/assets/banner-3.jpg');
+    background-size: cover;
+    background-position: center;
+
+    color: #101010;
+    min-height: 800px;
+
+    padding: 20px 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 8em;
+    margin: 0;
+    color: #ff0055;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #101010;
+    margin: 5px auto 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.services {
+    background-color: #f3f3f3;
+    color: #101010;
+    padding: 20px 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
