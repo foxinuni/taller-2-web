@@ -1,5 +1,5 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,63 +10,150 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <img src="/assets/logo-transparent.png" alt="Logo">
-        <nav>
-            <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <span>
-                <a class="btn-primary" href="#">Sing In</a>
-                <a class="btn-secondary" href="#">Sign Up</a>
-            </span>
-        </header>
-        <main>
-            <section class="hero">
-                <h1>Tabbies</h1>
-                <h2>Veterinary Clinic</h2>
-                <p>Your pet's health is our top priority. </br> We provide the best care for your furry friends.</p>
-                <a href="#" class="btn-primary">Book an Appointment</a>
-            </section>
-            <section class="services">
-                <h2>Our Services</h2>
-                <div class="service">
-                    <h3>General Checkup</h3>
-                    <p>Regular health checkups to ensure your pet is in the best shape.</p>
-                </div>
-                <div class="service">
-                    <h3>Vaccinations</h3>
-                    <p>Keep your pet protected with our comprehensive vaccination services.</p>
-                </div>
-                <div class="service">
-                    <h3>Dental Care</h3>
-                    <p>Maintain your pet's oral health with our dental care services.</p>
-                </div>
-            </section>
-            <section class="about">
-                <h2>About Us</h2>
-                <p>Tabbies Veterinary Clinic has been providing top-notch veterinary care for over 20 years. Our experienced team is dedicated to ensuring your pet's well-being.</p>
-            </section>
-            <section class="contact">
-                <h2>Contact Us</h2>
-                <p>Have questions or need to schedule an appointment? Reach out to us!</p>
-                <address>
-                    <p>Email: contact@tabbiesvet.com</p>
-                    <p>Phone: (123) 456-7890</p>
-                    <p>Address: 123 Pet Street, Animal City, PA 12345</p>
-                </address>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2023 Tabbies Veterinary Clinic. All rights reserved.</p>
-        </footer>
-    </body>
 
+
+    <!-- Cabecera (BORRAR SI SE QUIERE COMO LO MANDÓ DANIEL)-->
+    <header class="header">
+        <h1>TABBIES</h1>
+        <ul>
+            <li><a href="#">PLANES DE MEDICINA</a></li>
+            <li><a href="#">SERVICIOS</a></li>
+            <li><a href="#">SEDES</a></li>
+            <li><a href="#">PUEDE INTERESARTE</a></li>
+            <li><a href="#">CONTRACTO</a></li>
+        </ul>
+    </header>
+
+
+    <!-- Titulo -->
+    <section class="titulo">
+        <h1>Tabbies</h1>
+        <p>Tu veterinaria de gatos de confianza</p>
+        <p>Aprende más sobre nosotros!</p>
+        <p>Y disfruta de nuestros servicios</p>
+        <a href="#" class="btn-registro"><button>Sign-up</button></a>
+        <a href="#" class="btn-logeo"><button>Login</button></a>
+    </section>
+    
+    <!-- Sobre Nosotros -->
+    <section class="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En <strong>Veterinaria Felina Tabbies</strong>, nos dedicamos exclusivamente al 
+            cuidado de los gatos. Nuestro equipo de veterinarios y especialistas
+            en felinos está altamente capacitado para brindar la mejor atención médica, emocional y preventiva para 
+            tu mascota. Nos enorgullece ofrecer un ambiente cálido y seguro, diseñado especialmente para minimizar el 
+            estrés de los gatos durante su visita.
+        </p>
+        <img src="img/veterinaria.jpg" alt="Tabbies">  <!-- PONER EL LOGO -->
+    </section>
+    
+    <!-- Servicios -->
+    <section class="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-tabbies">
+            <div class="servicio-carta">
+                <img src="img-servicios/injection.png" alt="injection">
+                <h3>Consulta y Vacunación</h3>
+                <p>Revisión completa, diagnóstico y vacunas esenciales para mantener a tu gato sano y protegido.</p>
+            </div>
+            <div class="servicio-carta">
+                <img src="img-servicios/surgery.png" alt="surgery">
+                <h3>Cirugías Especializadas</h3>
+                <p>Procedimientos quirúrgicos seguros, con tecnología de vanguardia y recuperación supervisada.</p>
+            </div>
+            <div class="servicio-carta">
+                <img src="img-servicios/hotel.png" alt="hotel">
+                <h3>Hotel para Gatos</h3>
+                <p>Un espacio seguro, cómodo y diseñado especialmente para gatos, con atención personalizada las 24 horas.</p>
+            </div>
+            <div class="servicio-carta">
+                <img src="img-servicios/salad.png" alt="salad">
+                <h3>Nutrición Felina</h3>
+                <p>Asesoramiento nutricional y dietas personalizadas para gatos con necesidades especiales.</p>
+            </div>
+            <div class="servicio-carta">
+                <img src="img-servicios/scissors.png" alt="scissors">
+                <h3>Grooming Felino</h3>
+                <p>Servicios de peluquería y cuidado estético para gatos, realizados por profesionales.</p>
+            </div>
+            <div class="servicio-carta">
+                <img src="img-servicios/hands-brain.png" alt="hands-brain">
+                <h3>Terapia Conductual</h3>
+                <p>Ayudamos a resolver problemas de comportamiento como ansiedad, agresividad o estrés.</p>
+            </div>
+            <div class="servicio-carta">
+                <img src="img-servicios/ambulance.png" alt="ambulance">
+                <h3>Urgencias</h3>
+                <p>Servicios de emergencias veterinarias, con especialistas disponibles las 24 horas.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonios -->
+    <section class="testimonios">
+        <h2>Testimonios de Gaticos Satisfechos</h2>
+        <div class="testimonios-tabbies">
+            <div class="testimonio-carta">
+                <img src="https://images.ctfassets.net/denf86kkcx7r/4IPlg4Qazd4sFRuCUHIJ1T/f6c71da7eec727babcd554d843a528b8/gatocomuneuropeo-97" alt="Milo" class="testimonio-img">
+                <h3><strong>Clonasepan</strong></h3>
+                <p>"Clonasepan llegó con una infección respiratoria severa. Después del tratamiento, ahora disfruta de largas siestas al sol sin preocupaciones."</p>
+            </div>
+            <div class="testimonio-carta">
+                <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Hamburgueso" class="testimonio-img">
+                <h3><strong>Hamburgueso</strong></h3>
+                <p>"Hamburgueso tenía ansiedad y sobrepeso. Con nuestra terapia y dieta especial, recuperó su energía y juega más que nunca."</p>
+            </div>
+            <div class="testimonio-carta">
+                <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Luna" class="testimonio-img">
+                <h3><strong>Luna</strong></h3>
+                <p>"Luna fue operada con éxito de una fractura en su pata. Ahora corre y salta como si nada hubiera pasado."</p>
+            </div>
+            <div class="testimonio-carta">
+                <img src="https://th.bing.com/th/id/OIP.2wwAH6gKeOLQJFjagB_I-gHaE7?rs=1&pid=ImgDetMain" alt="Simba" class="testimonio-img">
+                <h3><strong>Simba</strong></h3>
+                <p>"Simba tenía problemas digestivos crónicos. Gracias a la dieta especializada que nos recomendaron, ahora está más activo y feliz que nunca."</p>
+            </div>
+            <div class="testimonio-carta">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Mimi" class="testimonio-img">
+                <h3><strong>Mimi</strong></h3>
+                <p>"Mimi sufrió una intoxicación por una planta tóxica. El equipo de Tabbies actuó rápidamente y la salvó. ¡Estamos eternamente agradecidos!"</p>
+            </div>
+            <div class="testimonio-carta">
+                <img src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Thor" class="testimonio-img">
+                <h3><strong>Thor</strong></h3>
+                <p>"Thor tenía sobrepeso y problemas de movilidad. Con el plan de ejercicios y la dieta que nos dieron, ha perdido peso y ahora juega como un gatito."</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contactanos</h2>
+        <p>📍 Dirección: XXXXXXXXX, Colombia</p>
+        <p>📞 Teléfono: +57 305 3444606</p>
+        <p>📧 Email: contacto@tabbies.com</p>
+
+        <!-- Formulario de contacto (se puede borrar si no les gusta la idea)-->
+        <form class="forma-contacto">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <input type="text" placeholder="Mensaje" required>
+            <button type="submit" class="btn-primary">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tabbies Clínica Veterinaria. Todos los derechos reservados.</p>
+
+        <!-- Redes sociales -->
+        <div class="redes">
+            <a href="https://es-la.facebook.com/" target="_blank"><img src="img-servicios/facebook.png" alt="Facebook" width="30"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" width="30"></a>
+            <a href="https://x.com/?mx=2" target="_blank"><img src="https://i.pinimg.com/736x/69/a6/2a/69a62a5edc08d755dd8a4ef017e14c63.jpg" alt="Twitter" width="30"></a>
+        </div>
+    </footer>
+</body>
 </html>
