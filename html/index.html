@@ -10,81 +10,98 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-
-
     <!-- Cabecera (BORRAR SI SE QUIERE COMO LO MANDÓ DANIEL)-->
     <header class="header">
-        <h1>TABBIES</h1>
-        <ul>
-            <li><a href="#">PLANES DE MEDICINA</a></li>
-            <li><a href="#">SERVICIOS</a></li>
-            <li><a href="#">SEDES</a></li>
-            <li><a href="#">PUEDE INTERESARTE</a></li>
-            <li><a href="#">CONTRACTO</a></li>
-        </ul>
+        <h1>Tabbies</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Planes de Medicina</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Sedes</a></li>
+                <li><a href="#">Puede Interesarte</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
 
     <!-- Titulo -->
-    <section class="titulo">
-        <h1>Tabbies</h1>
-        <p>Tu veterinaria de gatos de confianza</p>
-        <p>Aprende más sobre nosotros!</p>
-        <p>Y disfruta de nuestros servicios</p>
-        <a href="#" class="btn-registro"><button>Sign-up</button></a>
-        <a href="#" class="btn-logeo"><button>Login</button></a>
+    <section class="hero">
+        <div class="left">
+            <h1>Tabbies</h1>
+            <p>
+                Tu veterinaria de gatos de confianza.<br/>
+                Aprende más sobre nosotros<br/>
+                y disfruta de nuestros servicios.
+            </p>
+            <span>
+                <a href="#" class="btn-primary">Contáctenos</a>
+                <a href="#" class="btn-secondary">Iniciar Sesión</a>
+            </span>
+        </div>
+        <div class="right">
+            <img src="/assets/banner-cat-transparent.png" alt="Gato Banner">
+        </div>
     </section>
     
     <!-- Sobre Nosotros -->
-    <section class="sobre-nosotros">
+    <section class="about">
         <h2>Sobre Nosotros</h2>
-        <p>En <strong>Veterinaria Felina Tabbies</strong>, nos dedicamos exclusivamente al 
-            cuidado de los gatos. Nuestro equipo de veterinarios y especialistas
-            en felinos está altamente capacitado para brindar la mejor atención médica, emocional y preventiva para 
-            tu mascota. Nos enorgullece ofrecer un ambiente cálido y seguro, diseñado especialmente para minimizar el 
-            estrés de los gatos durante su visita.
-        </p>
-        <img src="img/veterinaria.jpg" alt="Tabbies">  <!-- PONER EL LOGO -->
+        <article>
+            <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bogota+Veterinaria&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            <p>
+                En <strong>Veterinaria Felina Tabbies</strong>, nos dedicamos exclusivamente al 
+                cuidado de los gatos. Nuestro equipo de veterinarios y especialistas
+                en felinos está altamente capacitado para brindar la mejor atención médica, emocional y preventiva para 
+                tu mascota. Nos enorgullece ofrecer un ambiente cálido y seguro, diseñado especialmente para minimizar el 
+                estrés de los gatos durante su visita.
+
+                <br/><br/>
+
+                Nuestra clínica está ubicada en el corazón de Bogotá, en la <strong>Calle 123 #45-67, Barrio Felino</strong>.
+                Contamos con amplias instalaciones y fácil acceso para que puedas traer a tu gato sin complicaciones.
+            </p>
+        </article>
     </section>
-    
+
     <!-- Servicios -->
-    <section class="servicios">
+    <section class="services">
         <h2>Nuestros Servicios</h2>
-        <div class="servicios-tabbies">
-            <div class="servicio-carta">
+        <div class="services-list">
+            <div class="service-cart">
                 <img src="img-servicios/injection.png" alt="injection">
                 <h3>Consulta y Vacunación</h3>
                 <p>Revisión completa, diagnóstico y vacunas esenciales para mantener a tu gato sano y protegido.</p>
             </div>
-            <div class="servicio-carta">
+            <div class="service-cart">
                 <img src="img-servicios/surgery.png" alt="surgery">
                 <h3>Cirugías Especializadas</h3>
                 <p>Procedimientos quirúrgicos seguros, con tecnología de vanguardia y recuperación supervisada.</p>
             </div>
-            <div class="servicio-carta">
+            <div class="service-cart">
                 <img src="img-servicios/hotel.png" alt="hotel">
                 <h3>Hotel para Gatos</h3>
                 <p>Un espacio seguro, cómodo y diseñado especialmente para gatos, con atención personalizada las 24 horas.</p>
             </div>
-            <div class="servicio-carta">
+            <div class="service-cart">
                 <img src="img-servicios/salad.png" alt="salad">
                 <h3>Nutrición Felina</h3>
                 <p>Asesoramiento nutricional y dietas personalizadas para gatos con necesidades especiales.</p>
             </div>
-            <div class="servicio-carta">
+            <div class="service-cart">
                 <img src="img-servicios/scissors.png" alt="scissors">
                 <h3>Grooming Felino</h3>
                 <p>Servicios de peluquería y cuidado estético para gatos, realizados por profesionales.</p>
             </div>
-            <div class="servicio-carta">
+            <div class="service-cart">
                 <img src="img-servicios/hands-brain.png" alt="hands-brain">
                 <h3>Terapia Conductual</h3>
                 <p>Ayudamos a resolver problemas de comportamiento como ansiedad, agresividad o estrés.</p>
             </div>
-            <div class="servicio-carta">
+            <div class="service-cart">
                 <img src="img-servicios/ambulance.png" alt="ambulance">
                 <h3>Urgencias</h3>
                 <p>Servicios de emergencias veterinarias, con especialistas disponibles las 24 horas.</p>
@@ -93,35 +110,35 @@
     </section>
     
     <!-- Testimonios -->
-    <section class="testimonios">
+    <section class="testimonies">
         <h2>Testimonios de Gaticos Satisfechos</h2>
-        <div class="testimonios-tabbies">
-            <div class="testimonio-carta">
+        <div class="testimonies-list">
+            <div class="testimonies-cart">
                 <img src="https://images.ctfassets.net/denf86kkcx7r/4IPlg4Qazd4sFRuCUHIJ1T/f6c71da7eec727babcd554d843a528b8/gatocomuneuropeo-97" alt="Milo" class="testimonio-img">
                 <h3><strong>Clonasepan</strong></h3>
                 <p>"Clonasepan llegó con una infección respiratoria severa. Después del tratamiento, ahora disfruta de largas siestas al sol sin preocupaciones."</p>
             </div>
-            <div class="testimonio-carta">
+            <div class="testimonies-cart">
                 <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Hamburgueso" class="testimonio-img">
                 <h3><strong>Hamburgueso</strong></h3>
                 <p>"Hamburgueso tenía ansiedad y sobrepeso. Con nuestra terapia y dieta especial, recuperó su energía y juega más que nunca."</p>
             </div>
-            <div class="testimonio-carta">
+            <div class="testimonies-cart">
                 <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Luna" class="testimonio-img">
                 <h3><strong>Luna</strong></h3>
                 <p>"Luna fue operada con éxito de una fractura en su pata. Ahora corre y salta como si nada hubiera pasado."</p>
             </div>
-            <div class="testimonio-carta">
+            <div class="testimonies-cart">
                 <img src="https://th.bing.com/th/id/OIP.2wwAH6gKeOLQJFjagB_I-gHaE7?rs=1&pid=ImgDetMain" alt="Simba" class="testimonio-img">
                 <h3><strong>Simba</strong></h3>
                 <p>"Simba tenía problemas digestivos crónicos. Gracias a la dieta especializada que nos recomendaron, ahora está más activo y feliz que nunca."</p>
             </div>
-            <div class="testimonio-carta">
+            <div class="testimonies-cart">
                 <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Mimi" class="testimonio-img">
                 <h3><strong>Mimi</strong></h3>
                 <p>"Mimi sufrió una intoxicación por una planta tóxica. El equipo de Tabbies actuó rápidamente y la salvó. ¡Estamos eternamente agradecidos!"</p>
             </div>
-            <div class="testimonio-carta">
+            <div class="testimonies-cart">
                 <img src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Thor" class="testimonio-img">
                 <h3><strong>Thor</strong></h3>
                 <p>"Thor tenía sobrepeso y problemas de movilidad. Con el plan de ejercicios y la dieta que nos dieron, ha perdido peso y ahora juega como un gatito."</p>
@@ -130,7 +147,7 @@
     </section>
     
     <!-- Contacto -->
-    <section id="contacto">
+    <section class="contact">
         <h2>Contactanos</h2>
         <p>📍 Dirección: XXXXXXXXX, Colombia</p>
         <p>📞 Teléfono: +57 305 3444606</p>
@@ -155,5 +172,6 @@
             <a href="https://x.com/?mx=2" target="_blank"><img src="https://i.pinimg.com/736x/69/a6/2a/69a62a5edc08d755dd8a4ef017e14c63.jpg" alt="Twitter" width="30"></a>
         </div>
     </footer>
+    <script src="/scripts/index.js"></script>
 </body>
 </html>
